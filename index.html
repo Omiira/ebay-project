@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home |Ebay</title>
+        <link rel="stylesheet" href="Home.css">
+        <link rel="shortcut icon" type="image" href="Resources/favicon.ico">
+
+ <!--card icon-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+
+    </head>
+
+    <body onload="start_dyimg()" id="Home">
+       <!-- <body id="Home"> -->
+
+   <div class="firstdiv">
+        <nav id="nav1">
+           <!-- <label class="logo">CodingNepal</label> -->
+           <ul>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span id="logged">
+              <li>Hi! </li>
+              <li><a href="signin.html" class="signReg">Sign in</a></li>
+              <li> or </li>
+              <li><a href="register.html" class="signReg">Register</a></li>
+            </span>
+              <li><a href="#" class="underlinehovernav1">Daily Deals</a></li>
+              <li><a href="#" class="underlinehovernav1">Help & Contact</a></li>
+
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+              <li><a href="#">ship to</a></li>
+              <li><a href="#" class="underlinehovernav1">sell</a></li>
+
+
+              <li>
+                 <a href="#">Watchlist <i class="fa-solid fa-angle-down"></i></a>
+                 <ul>
+                    <li style="text-align: center;"><h4>Please<a href="signin.html" class="inwatch">sign in</a> to view items you are watching.</h4></li>
+                 </ul>
+              </li>
+
+              <li>
+                 <a href="#">My ebay <i class="fa-solid fa-angle-down"></i></a>
+                 <ul>
+                    <li><a href="#">Summary</a></li>
+                    <li><a href="#">Recently viewed</a></li>
+                    <li><a href="#">Bids/Offers</a></li>
+                    <li><a href="#">Watchlist</a></li>
+                    <li><a href="#">Purchase History</a></li>
+                    <li><a href="#">Buy Again</a></li>
+                    <li><a href="#">selling</a></li>
+                    <li><a href="#">saved searches</a></li>
+                    <li> <a href="#">seved sellers</a></li>
+                    <li><a href="#">Massages</a></li>
+                 </ul>
+              </li>
+
+              <li > <!--Alert-->
+                <a href="#"><i class="fa-regular fa-bell" style="font-size: 20px;"></i></a>
+                <ul style="right: 15px;">
+                   <li style="text-align: center;"><h4>Please<a href="signin.html" class="inwatch"> sign in </a>to view Notifications.</h4></li>
+                </ul>
+             </li>
+
+             <li> <!--Cart-->
+                <a href="card.html"><i class="fa-solid fa-cart-shopping" style="font-size: 20px;" id="cart"></i></a>
+                <ul style="right: 5px;">
+                   <li style="text-align: center; padding: 10px; background-color: white;"  id="incart">
+                    <h3> &nbsp;Your cart is empty! &nbsp;</h3>
+                        <br>
+                    <h5> &nbsp;Time to start shopping! &nbsp;</h5>
+                        </li>
+
+                </ul>
+             </li>
+
+           </ul>
+        </nav>
+   </div>
+
+        <hr>
+
+   <div class="div2">
+       <table>
+          <tr style="width: 100%; float: left;">
+             <td class="logoimg">
+                <a href="index.html"><img src="Resources/ebay.PNG" id="logo"></a>
+             </td>
+
+             <td class="shop" style="float: left;">
+               <a href="#" class="shopby" style="border: 0;background-color: white;font-family: cursive;top: 5px; ">Shop by&nbsp; category</a>
+               <ul class="ulshop">
+                  <li class="shopping">
+                     <div style="margin: 0% auto; min-height: 50px; min-width: 60px; box-sizing: border-box; -webkit-box-sizing: border-box; background-color: white;">
+                        
+                              <!-- First span -->
+                              <span style="width: 30%; height: 100%; float: left; margin-left: 5px;">
+                                       
+                                       <h4 class="shopitem">Collectibles & art</h4>                                   
+                                       <p style="font-size: 11px; text-align: left; color: black;">
+                                       <a href="#" class="shopitem"> Collectibles<br></a>
+                                       <a href="#" class="shopitem"> Antiques<br></a>
+                                       <a href="#" class="shopitem"> Sports memorabilia<br></a>
+                                       <a href="#" class="shopitem"> Art<br></a>
+                                       </a></p>
+
+                                       <h4 class="shopitem">Electronics</h4>                                   
+                                       <p style="font-size: 11px; text-align: left;">
+                                       <a href="#" class="shopitem"> Computers & tablets<br></a>
+                                       <a href="#" class="shopitem"> Cameras & photos<br></a>
+                                       <a href="#" class="shopitem"> TV, audio & surveillance<br></a>
+                                       <a href="#" class="shopitem"> Cell phones & accessories<br></a>
+                                       </a></p>
+
+                                       <h4 class="shopitem">Fashion</h4>
+                                       <p style="font-size: 11px; text-align: left;">
+                                       <a href="#" class="shopitem"> Women<br></a>
+                                       <a href="#" class="shopitem"> Men<br></a>
+                                       <a href="#" class="shopitem"> Jewelry & watches<br></a>
+                                       <a href="#" class="shopitem"> Shoes<br></a>
+                                       </a></p><hr>
+
+                                 </span>
+                                 <!-- second span -->
+                              <span style="width: 29%; height: 100%; float: left; margin:0;">
+
+                                    <h4 class="shopitem">Home & garden</h4>                                   
+                                    <p style="font-size: 11px; text-align: left; color: black;">
+                                    <a href="#" class="shopitem"> Yard, garden & outdoor<br></a>
+                                    <a href="#" class="shopitem"> Crafts<br></a>
+                                    <a href="#" class="shopitem"> Home improvement<br></a>
+                                    <a href="#" class="shopitem"> Pet supplies<br></a>
+                                    </a></p>
+            
+                                    <h4 class="shopitem">Auto Parts & Accessories</h4>                                   
+                                    <p style="font-size: 11px; text-align: left;">
+                                    <a href="#" class="shopitem"> GPS & Security Devices<br></a>
+                                    <a href="#" class="shopitem"> Radar & Laser Detectors<br></a>
+                                    <a href="#" class="shopitem"> Care & Detailing<br></a>
+                                    <a href="#" class="shopitem"> Scooter Parts & Accessories<br></a>
+                                    </a></p>
+
+                                    <h4 class="shopitem">Musical instruments & gear</h4>
+                                    <p style="font-size: 11px; text-align: left;">
+                                    <a href="#" class="shopitem"> Guitar<br></a>
+                                    <a href="#" class="shopitem"> Pro audio equipment<br></a>
+                                    <a href="#" class="shopitem"> String<br></a>
+                                    <a href="#" class="shopitem"> Stage lighting & effects<br></a>
+                                    </a></p><hr>
+
+                                 </span>
+                                 <!-- Third span -->
+                              <span style="width: 30%; height: 100%; float: left; margin:0;">
+
+                                 <h4 class="shopitem">Sporting goods</h4>                                   
+                                 <p style="font-size: 11px; text-align: left; color: black;">
+                                 <a href="#" class="shopitem"> Outdoor sports<br></a>
+                                 <a href="#" class="shopitem"> Team sports<br></a>
+                                 <a href="#" class="shopitem"> Exercise & fitness<br></a>
+                                 <a href="#" class="shopitem"> Golf<br></a>
+                                 </a></p>
+         
+                                 <h4 class="shopitem">Toys & hobbies</h4>                                   
+                                 <p style="font-size: 11px; text-align: left;">
+                                 <a href="#" class="shopitem"> Radio control<br></a>
+                                 <a href="#" class="shopitem"> Kids toys<br></a>
+                                 <a href="#" class="shopitem"> Action figures<br></a>
+                                 <a href="#" class="shopitem"> Dolls & bears<br></a>
+                                 </a></p>
+
+                                 <h4 class="shopitem">Other categories</h4>
+                                 <p style="font-size: 11px; text-align: left;">
+                                 <a href="#" class="shopitem"> Video games & consoles<br></a>
+                                 <a href="#" class="shopitem"> Health & beauty<br></a>
+                                 <a href="#" class="shopitem"> Baby<br></a>
+                                 <a href="#" class="shopitem"> Business & industrial<br></a>
+                                 </a></p>
+                                 <hr>
+                                 <h3><p id="seeall">See All Categories -></p></h3>
+
+                                 </span>
+
+                     </div>
+            
+                  </li>
+               </ul>
+             </td>
+
+             <td  class="arrowsearch">
+               <i class="fa-solid fa-angle-down"></i>
+             </td>
+             <!-- style="float: left; width: 10px; text-align: center; padding: 30px;"> -->
+             <td>
+               <form action="">
+        <!-------------------------------------------Search Area-------------------------------------->
+                  <div class="search_Area">
+                    <!-- <div class="search_icon"> -->
+                      <span class="S_icon"><i class="fa-solid fa-magnifying-glass" style="color: darkgray;"></i></span>
+                    <!-- </div> -->
+                    <input type="text" class="searchinput" placeholder=" search for anything" id="search" name="_search">
+
+                    <select name="Select1" size="1" class="allcategory">
+                           <option value="">All categories</option>
+                           <option value="volvo">Volvo</option>
+                           <option value="saad">Saab</option>
+                           <option value="ford">Ford</option>
+                           <option value="toyota">Toyota</option>
+                           <option value="aston">Aston Martin</option>
+                           <option value="alfa">Alfa Romeo</option>
+                           <option value="volvo">Volvo</option>
+                           <option value="saad">Saab</option>
+                           <option value="ford">Ford</option>
+                           <option value="toyota">Toyota</option>
+                           <option value="aston">Aston Martin</option>
+                           <option value="alfa">Alfa Romeo</option>
+                           <option value="volvo">Volvo</option>
+                           <option value="saad">Saab</option>
+                           <option value="ford">Ford</option>
+                           <option value="toyota">Toyota</option>
+                           <option value="aston">Aston Martin</option>
+                           <option value="alfa">Alfa Romeo</option>
+                           <option value="volvo">Volvo</option>
+                           <option value="saad">Saab</option>
+                           <option value="ford">Ford</option>
+                           <option value="toyota">Toyota</option>
+                           <option value="aston">Aston Martin</option>
+                           <option value="alfa">Alfa Romeo</option>
+                     </select>
+
+                  </div>
+                  <button type="submit" value="Search" id="Gosearch" onclick="searchAbout()"><a href="search.html" style="color: white;">Search</a></button>
+                </form>
+             </td>
+
+             <td>
+               <a href="#" id="advanced"><h6>Advanced</h6></a>   
+             </td>
+          </tr>
+       </table>
+   </div>
+
+      <hr>
+
+   <div class="div3">
+      <nav id="nav2">
+         <ul>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li id="Home"> Home </li>
+            <li><a href="#" id="saved"><i class="fa-solid fa-heart"></i> Saved</a></li>
+            <li>
+               <a href="#"> Electronics </a>
+               <ul style="background-color: white; left: 80px;">
+                  <li>
+                        <div style="min-height: 50px; min-width: 70px; box-sizing: border-box; -webkit-box-sizing: border-box; background-color: white;">
+                              <span style="width: 20%; height: 100%; float: left; margin-right: 3px;">
+                                    <h4>Most popular categories</h4>
+                                    <hr>
+                                    <p style="font-size: 13px;">
+                                    <a href="#"> Cell phones and accessories<br></a>
+                                    <a href="#"> Video games and consoles<br></a>
+                                    <a href="#"> Computers and tablets<br></a>
+                                    <a href="#"> Cameras and photos<br></a>
+                                    <a href="#"> Camera drones<br></a>
+                                    <a href="#"> Asian Brands<br></a>
+                                    <a href="#"> Smart home<br></p></a>
+                              </span>
+                              <span style="width: 17%; height: 100%; float: left; margin-right: 3px;">
+                                <h4> More categories</h4>
+                                <hr>
+                                <p style="font-size: 13px;">
+                                 <a href="#">Apple<br></a>
+                                 <a href="#">Samsung<br></a>
+                                 <a href="#">Xiaomi<br></a>
+                                 <a href="#">Portable audio and headphones<br></a>
+                                 <a href="#">Smart watches<br></a>
+                                 <a href="#">Deals<br></a>
+                                 <a href="#">Sell on eBay<br></p></a>
+                              </span>
+                              <span style="width: 62%; height: 300px; float: left; margin-right: 3px; background-color: white;">
+                                <a href="#" style="float: left;width: 62%; height: 300px;"><img src="Resources/electronics.jpeg" style="height: 95%; width: 625px; margin: 10px 0px 5px 3px;"></a> 
+                              </span>
+
+                        </div>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <a href="#"> Fashion</a>
+               <ul style="background-color: white; left: 110px;">
+                  <li>
+                        <div style="min-height: 50px; min-width: 70px; box-sizing: border-box; -webkit-box-sizing: border-box; background-color: white;">
+                              <span style="width: 20%; height: 100%; float: left; margin-right: 3px;">
+                                    <h4>Most popular categories</h4>
+                                    <hr>
+                                    <p style="font-size: 13px;">
+                                    <a href="#"> Footwear<br></a>
+                                    <a href="#"> Women's clothing<br></a>
+                                    <a href="#"> Footwear for women<br></a>
+                                    <a href="#"> Clothes for men<br></a>
+                                    <a href="#"> Men's footwear<br></a>
+                                    <a href="#"> Watches<br></a>
+                                    <a href="#"> Jewelry<br></p></a>
+                              </span>
+                              <span style="width: 17%; height: 100%; float: left; margin-right: 3px;">
+                                <h4> More categories</h4>
+                                <hr>
+                                <p style="font-size: 13px;">
+                                 <a href="#">Accessories for men<br></a>
+                                 <a href="#">Accessories for women<br></a>
+                                 <a href="#">Bags and wallets for women<br></a>
+                                 <a href="#">Mens sunglasses<br></a>
+                                 <a href="#">Womens sunglasess<br></a>
+                                 <a href="#">Sneakers<br></a>
+                                 <a href="#">Deals<br></a>
+                                 <a href="#">Sell on eBay<br></p></a>
+                              </span>
+                              <span style="width: 62%; height: 300px; float: left; margin-right: 3px; background-color: white;">
+                                <a href="#" style="float: left;width: 62%; height: 300px;"><img src="Resources/fashion.jpeg" style="height: 95%; width: 570px; margin: 10px 0px 5px 3px;"></a> 
+                              </span>
+
+                        </div>
+                  </li>
+               </ul>
+            </li>
+
+            <li>
+               <a href="#"> Health & Beauty</a>
+               <ul style="background-color: white; left: 140px;">
+                  <li>
+                        <div style="min-height: 50px; min-width: 70px; box-sizing: border-box; -webkit-box-sizing: border-box; background-color: white;">
+                              <span style="width: 20%; height: 100%; float: left; margin-right: 3px;">
+                                    <h4>Most popular categories</h4>
+                                    <hr>
+                                    <p style="font-size: 13px;">
+                                    <a href="#"> Beauty<br></a>
+                                    <a href="#"> Makeup<br></a>
+                                    <a href="#"> Health<br></a>
+                                    <a href="#"> K-Beauty<br></a>
+                                    <a href="#"> Manicure and pedicure<br></a>
+                                    <a href="#"> Hair products<br></a>
+                                    <a href="#"> Skin products<br></a>
+                                    <a href="#"> Orthopedic products<br></p></a>
+                              </span>
+                              <span style="width: 17%; height: 100%; float: left; margin-right: 3px;">
+                                <h4> More categories</h4>
+                                <hr>
+                                <p style="font-size: 13px;">
+                                 <a href="#">Vitamins and food supplements<br></a>
+                                 <a href="#">Shaving and waxing<br></a>
+                                 <a href="#">Bath and personal hygiene<br></a>
+                                 <a href="#">Oral hygiene<br></a>
+                                 <a href="#">Massagers<br></a>
+                                 <a href="#">Deals<br></a>
+                                 <a href="#">Sell on eBay<br></p></a>
+                              </span>
+                              <span style="width: 60%; height: 300px; float: left; margin-right: 3px; background-color: white;">
+                                <a href="#" style="float: left;width: 60%; height: 300px;"><img src="Resources/Health.PNG" style="height: 95%; width: 600px; margin: 10px 0px 5px 3px;"></a> 
+                              </span>
+
+                        </div>
+                  </li>
+               </ul>
+            </li>
+
+            <li><a href="#"> Home & Garden</a></li>
+
+            <li><a href="#"> Sports</a></li>
+            <li><a href="#"> Collectibles and Art</a></li>
+            <li><a href="#"> Industrial equipment</a></li>
+            <li><a href="#"> Motors</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Sell</a></li>
+
+         
+
+         </ul>
+      </nav>
+   </div>
+
+      <hr>
+
+<!------------------------------------------Dynamic pic --------------------------------------->
+   <!-------- image----- -->
+<div class="dynamicpic">
+<img id="frontimg" src="Resources/1.jpg" class="img">
+
+   <!-------- Radio Buttons --------->
+<div class="buttons" >
+
+ <input type="radio" name="radio" id="radio1" onclick="count(0)">
+ <label for="radio1"></label>
+
+ <input type="radio" name="radio" id="radio2" onclick="count(1)">
+ <label for="radio2"></label>
+
+ <input type="radio" name="radio" id="radio3" onclick="count(2)">
+ <label for="radio3"></label>
+
+ <input type="radio" name="radio" id="radio4" onclick="count(3)">
+ <label for="radio4"></label>
+
+ <input type="radio" name="radio" id="radio5" onclick="count(4)">
+ <label for="radio5"></label>
+</div>
+</div>
+
+<!----------- Arrow Buttons----------->
+<div class="arrows">
+   <!-- Next -->
+<button type="button" onclick ="nextarr()" class="arrnext" value="Next">
+>  
+</button>
+<!-- Last -->
+<button type="button" onclick="lastarr()" class="arrlast" value="Last">
+<  
+</button>
+
+</div>
+
+
+<!-------------------------------------------------------------------------------------->
+<!--------------------------------------Esraa------------------------------------------->
+<section id="item_brands">
+   <div id="item_brands1">
+<!-- Explore popular brands -->
+<div class="column">
+   <section class="test">
+       <div class="text">
+           <a href="#" target="" >Explore popular brands</a>
+       <div class="hr_dash">  </div>
+
+       </div>
+
+   <div class="photos">
+       <ul>
+           <li>
+               <div class="brands">
+                  <a href="samsung.html" target="">
+                    <img src="imges/samsung.jfif" class="items">
+                    </a>
+               </div>
+               <div class="row">
+           <a href="samsung.html" target="">Samsung</a>
+           <div class="brdr">  </div>
+
+           </div>
+       </li>
+       <!-- img2__________________________________________________ -->
+
+       <li>
+           <div>
+
+          <div class="brands">
+           <a href="iphone.html" target=""> 
+          <img src="imges/iphone.jfif" class="items"></a>
+          </div>
+          <div class="row">
+          <a href="iphone.html" target="_blank">Apple</a>
+          <div class="brdr">  </div>
+
+          </div>
+   </div>
+
+   </li>
+   <!-- img3__________________________________________________ -->
+
+   <li>
+       <div>
+
+      <div class="brands">
+       <a href="Nike.html" target=""> 
+      <img src="imges/nike.jfif" class="items"></a>
+      </div>
+      <div class="row">
+      <a href="Nike.html" target="">Nike</a>
+      <div class="brdr">  </div>
+
+   </div>
+</div>
+
+   </li>
+   <!-- img4__________________________________________________ -->
+
+   <li>
+   <div>
+
+      <div class="brands">
+       <a href="#" target=""> 
+      <img src="imges/sony.jfif" class="items"></a>
+      </div>
+      <div class="row">
+      <a href="#" target="">Sony</a>
+      <div class="brdr">  </div>
+
+      </div>
+
+   </div>
+   </li>
+   
+   
+   
+   <!-- img5__________________________________________________ -->
+
+   <li>
+       <div>
+
+      <div class="brands">
+       <a href="#" target=""> 
+      <img src="imges/xiam.jfif" class="items"></a>
+      </div>
+      <div class="row">
+      <a href="#" target="">Xiaomi</a>
+      <div class="brdr">  </div>
+
+   </div>
+</div>
+
+   </li>
+  
+       </ul>
+      
+      <div class="clear"></div>
+   
+   </section>
+</div>
+<!-- Explore popular Beauty picks-->
+   <div class="column">
+   <section class="test">
+       <div class="text">
+           <a href="products.html" target="self" >Explore popular Beauty picks </a>
+           <div class="hr_dash">  </div>
+
+
+       </div>
+
+   <div class="photos">
+       <ul>
+           <li>
+               <div >
+               <div class="brands">
+                   <a href="products.html" target=""> 
+               <img src="imges/bags.png" class="items"></a>
+               </div>
+               <div class="row">
+           <a href="products.html" target="">Bags</a>
+           <div class="brdr">  </div>
+
+           </div>
+       </div>
+       </li>
+       <!-- img2__________________________________________________ -->
+
+       <li>
+           <div>
+
+          <div class="brands">
+           <a href="products.html" target=""> 
+          <img src="imges/ja.jfif" class="items"></a>
+          </div>
+          <div class="row">
+          <a href="products.html" target="">jackets</a>
+          <div class="brdr">  </div>
+
+          </div>
+   </div>
+
+   </li>
+   <!-- img3__________________________________________________ -->
+
+   <li>
+       <div>
+
+      <div class="brands">
+       <a href="products.html" target=""> 
+      <img src="imges/panties.jpg" class="items">
+      </a>
+      </div>
+      <div class="row">
+      <a href="products.html" target="">pants</a>
+      <div class="brdr">  </div>
+
+   </div>
+</div>
+
+   </li>
+   <!-- img4__________________________________________________ -->
+
+   <li>
+   <div>
+
+      <div class="brands">
+       <a href="products.html" target=""> 
+      <img src="imges/shoes.jpeg" class="items">
+      </a>
+      </div>
+      <div class="row">
+      <a href="products.html" target="">shoes</a>
+      <div class="brdr">  </div>
+
+      </div>
+
+   </div>
+   </li>
+   
+   
+   
+   <!-- img5__________________________________________________ -->
+   
+   <li>
+   <div>
+
+      <div class="brands">
+       <a href="products.html" target=""> 
+      <img src="imges/prety.jfif" class="items">
+      </a>
+      </div>
+      <div class="row">
+
+      <a href="products.html" target="">Born pretty</a>
+      <div class="brdr">  </div>
+
+   </div>
+</div>
+
+   </li>
+   
+
+       </ul>
+      
+      <div class="clear"></div>
+   
+   </section>
+</div>
+<!-- Explore popular brands -->
+<div class="column">
+   <section class="test">
+       <div class="text">
+           <a href="products.html" target="" >Explore popular Electronics  </a>
+           <div class="hr_dash">  </div>
+
+       </div>
+
+   <div class="photos">
+       <ul>
+           <li>
+               <div>
+               <div class="brands">
+                   <a href="products.html" target=""> 
+               <img src="imges/camera.jpg" class="items"></a>
+               </div>
+               <div class="row">
+           <a href="products.html" target="">Camera</a>
+           <div class="brdr">  </div>
+
+           </div>
+       </div>
+       </li>
+       <!-- img2__________________________________________________ -->
+
+       <li>
+           <div>
+
+          <div class="brands">
+           <a href="products.html" target=""> 
+          <img src="imges/flash.jpg" class="items"></a>
+          </div>
+          <div class="row">
+          <a href="products.html" target="">flashMemory</a>
+          <div class="brdr">  </div>
+
+          </div>
+   </div>
+
+   </li>
+   <!-- img3__________________________________________________ -->
+
+   <li>
+       <div>
+
+      <div class="brands">
+       <a href="products.html" target=""> 
+      <img src="imges/laptop.jfif" class="items"></a>
+      </div>
+      <div class="row">
+      <a href="products.html" target="">Laptopes</a>
+      <div class="brdr">  </div>
+
+   </div>
+</div>
+
+   </li>
+   <!-- img4__________________________________________________ -->
+
+   <li>
+   <div>
+
+      <div class="brands">
+       <a href="products.html" target=""> 
+      <img src="imges/headphone.jpg" class="items"></a>
+      </div>
+      <div class="row">
+      <a href="products.html" target="">headphones</a>
+      <div class="brdr">  </div>
+
+      </div>
+
+   </div>
+   </li>
+   
+   
+   
+   <!-- img5__________________________________________________ -->
+
+   <li>
+       <div>
+
+      <div class="brands">
+       <a href="products.html" target=""> 
+      <img src="imges/tv.jpg" class="items"></a>
+      </div>
+      <div class="row">
+      <a href="products.html" target="">televation</a>
+      <div class="brdr">  </div>
+
+   </div>
+</div>
+
+   </li>
+   
+   
+       </ul>
+      
+      <div class="clear"></div>
+   
+   </section>
+</div>
+</div>
+</section>
+
+
+<div style="padding: 40px 0;">   <hr ></div>
+
+
+
+
+
+<!------------------------------------------------------------------------------------------->
+<!---------------------------------------Omira----------------------------------------------->
+
+
+<footer class="foot">
+<div class="alllists">
+   <div class="flist" style="padding-left: 70px;width: 17.5%;" >
+       <ul style="list-style: none;">
+           <li>
+               <h3>Buy</h3>
+           </li>
+           <li class="factwi">
+               Registration
+           </li>
+           <li class="factwi">
+               eBay Money Back Guarantee
+           </li>
+           <li class="factwi">
+               Bidding & buying help
+           </li>
+           <li class="factwi">
+               Stores
+           </li>
+       </ul>
+   </div>
+   <div class="flist" >
+       <div class="flist2">
+           <ul style="list-style: none;">
+               <li>
+                   <h3>Sell</h3>
+               </li>
+               <li class="factwi">
+                   Start selling
+               </li>
+               <li class="factwi">
+                   Learn to sell 
+               </li>
+               <li class="factwi">
+                   Affiliates
+               </li>
+           </ul>
+       </div>
+       <div class="flist3">
+           <ul style="list-style: none;">
+               <li>
+                   <h3>Tools & apps</h3>
+               </li>
+               <li class="factwi">
+                   Developers
+               </li>
+               <li class="factwi">
+                   Security center
+               </li>
+               <li class="factwi">
+                   Site map
+               </li>
+           </ul>
+       </div>
+   </div>
+   <div class="flist" >
+       <ul style="list-style: none;">
+           <li>
+               <h3>Stay connected</h3>
+           </li>
+           <li class="factwi">
+               eBay's Blogs
+           </li>
+           <li>
+               <a href="https://www.facebook.com/" target="_blank" value="facebook" class="factwi"><i class="fa-brands fa-facebook"></i>Facebook</a> 
+           </li>
+           <li>
+               <a href="https://twitter.com/" target="_blank" value="twitter" class="factwi"><i class="fa-brands fa-twitter"></i></i>Twitter</a> 
+           </li>
+       </ul>
+   </div>
+   <div class="flist" >
+       <ul style="list-style: none;">
+           <li>
+               <h3>About eBay</h3>
+           </li>
+           <li class="factwi">
+               Company info
+           </li>
+           <li class="factwi">
+               News
+           </li>
+           <li class="factwi">
+               Investors
+           </li>
+           <li class="factwi">
+               Careers
+           </li>
+           <li class="factwi">
+               Government relations
+           </li>
+           <li class="factwi">
+               Advertise with us
+           </li>
+           <li class="factwi">
+               Policies
+           </li>
+           <li class="factwi">
+               Verified Rights Owner (VeRO) Program
+           </li>
+       </ul>
+   </div>
+   <div class="flist"  >
+       <div class="flist2" >
+           <ul style="list-style: none;">
+               <li>
+                   <h3>Help & Contact</h3>
+               </li>
+               <li class="factwi">
+                   Seller Information Center
+               </li>
+               <li class="factwi">
+                   Contact us
+               </li>
+           </ul>
+       </div>
+       <div class="flist3" >
+           <ul style="list-style: none;">
+               <li class="factwi">
+                   <h3>Community</h3>
+               </li>
+               <li class="factwi">
+                   Announcements
+               </li>
+               <li class="factwi">
+                   Discussion boards
+               </li>
+               <li class="factwi">
+                   eBay Giving Works
+               </li>
+           </ul>
+       </div>
+   </div>
+</div>    
+<div class="copyright" >
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+Copyright © 1995-2022 eBay Inc. All Rights Reserved. Accessibility, User Agreement, Privacy, Cookies, Do not sell my personal information
+<!-- <div class="png"> -->
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+   <img src="norton.jpg" alt="" class="png">
+
+   <div style="float: right; position: relative;">
+    <a href="#Home" class="png"><i class="fa-solid fa-circle-arrow-up" style="font-size: 30px; bottom: 30px;position: fixed; left: 97%;" ></i></a>
+</div>
+   <!-- <a href="#Home" class="png" ><i class="fa-solid fa-circle-arrow-up" style="font-size: 30px; bottom: 30px;" ></i></a> -->
+   
+   <!-- </div> -->
+</div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script src="Home.js"></script>
+     </body>
+</html>
+
+
+<!-- 
+<button type="button" class="allcategory" data-toggle="dropdown">All categories
+   <i class="fa-solid fa-angle-down"></i>
+         <ul class="dropdown-categories">
+            <li> <a class="item" href="#"> 1</a> </li>
+            <li> <a class="item" href="#"> 2</a> </li>
+            <li> <a class="item" href="#"> 3</a> </li>
+            <li> <a class="item" href="#"> 4</a> </li>
+            <li> <a class="item" href="#"> 5</a> </li>
+            <li> <a class="item" href="#"> 3</a> </li>
+            <li> <a class="item" href="#"> 7</a> </li>
+            <li> <a class="item" href="#"> 9</a> </li>
+            <li> <a class="item" href="#"> 3</a> </li>
+            <li> <a class="item" href="#"> 3</a> </li>
+            <li> <a class="item" href="#"> 2</a> </li>
+            <li> <a class="item" href="#"> 3</a> </li>
+         </ul>
+ -->
+
+
+
+
+
+
+
+
+
+<!-- 
+<form>
+   <div class="input-group mt-3 mb-3">
+     <div class="input-group-prepend">
+       <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+         Dropdown button
+       </button>
+       <div class="dropdown-menu">
+         <a class="dropdown-item" href="#">Link 1</a>
+         <a class="dropdown-item" href="#">Link 2</a>
+         <a class="dropdown-item" href="#">Link 3</a>
+       </div>
+     </div>
+     <input type="text" class="form-control" placeholder="Username">
+   </div>
+ </form> -->

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>products</title>
+        <link rel="stylesheet" href="Home.css">
+        <link rel="stylesheet" href="Brands.css">
+        <link rel="stylesheet" href="product.css">
+        <link rel="shortcut icon" type="image" href="Resources/favicon.ico">
+
+ <!--card icon-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <script src="Home.js">
+            show_Number_of_pro();
+        </script>
+
+    </head>
+    <body id="productssinfo">
+        <div class="firstdiv">
+            <nav id="nav1">
+               <!-- <label class="logo">CodingNepal</label> -->
+               <ul>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span id="logged">
+                  <li>Hi! </li>
+                  <li><a href="signin.html" class="signReg">Sign in</a></li>
+                  <li> or </li>
+                  <li><a href="register.html" class="signReg">Register</a></li>
+            </span>
+                  <li><a href="#" class="underlinehovernav1">Daily Deals</a></li>
+                  <li><a href="#" class="underlinehovernav1">Help & Contact</a></li>
+    
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    
+                  <li><a href="#">ship to</a></li>
+                  <li><a href="#" class="underlinehovernav1">sell</a></li>
+    
+    
+                  <li>
+                     <a href="#">Watchlist <i class="fa-solid fa-angle-down"></i></a>
+                     <ul>
+                        <li style="text-align: center;"><h4>Please<a href="signin.html" class="inwatch">sign in</a> to view items you are watching.</h4></li>
+                     </ul>
+                  </li>
+    
+                  <li>
+                     <a href="#">My ebay <i class="fa-solid fa-angle-down"></i></a>
+                     <ul>
+                        <li><a href="#">Summary</a></li>
+                        <li><a href="#">Recently viewed</a></li>
+                        <li><a href="#">Bids/Offers</a></li>
+                        <li><a href="#">Watchlist</a></li>
+                        <li><a href="#">Purchase History</a></li>
+                        <li><a href="#">Buy Again</a></li>
+                        <li><a href="#">selling</a></li>
+                        <li><a href="#">saved searches</a></li>
+                        <li> <a href="#">seved sellers</a></li>
+                        <li><a href="#">Massages</a></li>
+                     </ul>
+                  </li>
+    
+                  <li > <!--Alert-->
+                    <a href="#"><i class="fa-regular fa-bell" style="font-size: 20px;"></i></a>
+                    <ul style="right: 15px;">
+                       <li style="text-align: center;"><h4>Please<a href="signin.html" class="inwatch"> sign in </a>to view Notifications.</h4></li>
+                    </ul>
+                 </li>
+    
+                 <li> <!--Cart-->
+                    <a href="card.html"><i class="fa-solid fa-cart-shopping" style="font-size: 20px;" id="cart"></i></a>
+                    <ul style="right: 5px;">
+                       <li style="text-align: center; padding: 10px; background-color: white;"  id="incart">
+                        <h3> &nbsp;Your cart is empty! &nbsp;</h3>
+                            <br>
+                        <h5> &nbsp;Time to start shopping! &nbsp;</h5>
+                            </li>
+    
+                    </ul>
+                 </li>
+    
+               </ul>
+            </nav>
+       </div>
+    
+            <hr>
+
+        <div class="div2">
+            <table>
+                <tr style="width: 100%; float: left;">
+                    <td class="logoimg">
+                        <a href="index.html"><img src="Resources/ebay.PNG" id="logo"></a>
+                    </td>
+        
+                    <td class="shop" style="float: left;">
+                    <a href="#" class="shopby" style="border: 0;background-color: white;font-family: cursive;top: 5px; ">Shop by&nbsp; category</a>
+                    <ul class="ulshop">
+                        <li class="shopping">
+                            <div style="margin: 0% auto; min-height: 50px; min-width: 60px; box-sizing: border-box; -webkit-box-sizing: border-box; background-color: white;">
+                                
+                                    <!-- First span -->
+                                    <span style="width: 30%; height: 100%; float: left; margin-left: 5px;">
+                                            
+                                            <h4 class="shopitem">Collectibles & art</h4>                                   
+                                            <p style="font-size: 11px; text-align: left; color: black;">
+                                            <a href="#" class="shopitem"> Collectibles<br></a>
+                                            <a href="#" class="shopitem"> Antiques<br></a>
+                                            <a href="#" class="shopitem"> Sports memorabilia<br></a>
+                                            <a href="#" class="shopitem"> Art<br></a>
+                                            </a></p>
+        
+                                            <h4 class="shopitem">Electronics</h4>                                   
+                                            <p style="font-size: 11px; text-align: left;">
+                                            <a href="#" class="shopitem"> Computers & tablets<br></a>
+                                            <a href="#" class="shopitem"> Cameras & photos<br></a>
+                                            <a href="#" class="shopitem"> TV, audio & surveillance<br></a>
+                                            <a href="#" class="shopitem"> Cell phones & accessories<br></a>
+                                            </a></p>
+        
+                                            <h4 class="shopitem">Fashion</h4>
+                                            <p style="font-size: 11px; text-align: left;">
+                                            <a href="#" class="shopitem"> Women<br></a>
+                                            <a href="#" class="shopitem"> Men<br></a>
+                                            <a href="#" class="shopitem"> Jewelry & watches<br></a>
+                                            <a href="#" class="shopitem"> Shoes<br></a>
+                                            </a></p><hr>
+        
+                                        </span>
+                                        <!-- second span -->
+                                    <span style="width: 29%; height: 100%; float: left; margin:0;">
+        
+                                            <h4 class="shopitem">Home & garden</h4>                                   
+                                            <p style="font-size: 11px; text-align: left; color: black;">
+                                            <a href="#" class="shopitem"> Yard, garden & outdoor<br></a>
+                                            <a href="#" class="shopitem"> Crafts<br></a>
+                                            <a href="#" class="shopitem"> Home improvement<br></a>
+                                            <a href="#" class="shopitem"> Pet supplies<br></a>
+                                            </a></p>
+                    
+                                            <h4 class="shopitem">Auto Parts & Accessories</h4>                                   
+                                            <p style="font-size: 11px; text-align: left;">
+                                            <a href="#" class="shopitem"> GPS & Security Devices<br></a>
+                                            <a href="#" class="shopitem"> Radar & Laser Detectors<br></a>
+                                            <a href="#" class="shopitem"> Care & Detailing<br></a>
+                                            <a href="#" class="shopitem"> Scooter Parts & Accessories<br></a>
+                                            </a></p>
+        
+                                            <h4 class="shopitem">Musical instruments & gear</h4>
+                                            <p style="font-size: 11px; text-align: left;">
+                                            <a href="#" class="shopitem"> Guitar<br></a>
+                                            <a href="#" class="shopitem"> Pro audio equipment<br></a>
+                                            <a href="#" class="shopitem"> String<br></a>
+                                            <a href="#" class="shopitem"> Stage lighting & effects<br></a>
+                                            </a></p><hr>
+        
+                                        </span>
+                                        <!-- Third span -->
+                                    <span style="width: 30%; height: 100%; float: left; margin:0;">
+        
+                                        <h4 class="shopitem">Sporting goods</h4>                                   
+                                        <p style="font-size: 11px; text-align: left; color: black;">
+                                        <a href="#" class="shopitem"> Outdoor sports<br></a>
+                                        <a href="#" class="shopitem"> Team sports<br></a>
+                                        <a href="#" class="shopitem"> Exercise & fitness<br></a>
+                                        <a href="#" class="shopitem"> Golf<br></a>
+                                        </a></p>
+                
+                                        <h4 class="shopitem">Toys & hobbies</h4>                                   
+                                        <p style="font-size: 11px; text-align: left;">
+                                        <a href="#" class="shopitem"> Radio control<br></a>
+                                        <a href="#" class="shopitem"> Kids toys<br></a>
+                                        <a href="#" class="shopitem"> Action figures<br></a>
+                                        <a href="#" class="shopitem"> Dolls & bears<br></a>
+                                        </a></p>
+        
+                                        <h4 class="shopitem">Other categories</h4>
+                                        <p style="font-size: 11px; text-align: left;">
+                                        <a href="#" class="shopitem"> Video games & consoles<br></a>
+                                        <a href="#" class="shopitem"> Health & beauty<br></a>
+                                        <a href="#" class="shopitem"> Baby<br></a>
+                                        <a href="#" class="shopitem"> Business & industrial<br></a>
+                                        </a></p>
+                                        <hr>
+                                        <h3><p id="seeall">See All Categories -></p></h3>
+        
+                                        </span>
+        
+                            </div>
+                    
+                        </li>
+                    </ul>
+                    </td>
+        
+                    <td  class="arrowsearch">
+                    <i class="fa-solid fa-angle-down"></i>
+                    </td>
+                    <!-- style="float: left; width: 10px; text-align: center; padding: 30px;"> -->
+                    <td>
+                    <form action="">
+                        <div class="search_Area">
+                            <!-- <div class="search_icon"> -->
+                            <span class="S_icon"><i class="fa-solid fa-magnifying-glass" style="color: darkgray;"></i></span>
+                            <!-- </div> -->
+                            <input type="text" class="searchinput" placeholder=" search for anything" id="search" name="_search">
+        
+                            <select name="Select1" size="1" class="allcategory">
+                                <option value="">All categories</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saad">Saab</option>
+                                <option value="ford">Ford</option>
+                                <option value="toyota">Toyota</option>
+                                <option value="aston">Aston Martin</option>
+                                <option value="alfa">Alfa Romeo</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saad">Saab</option>
+                                <option value="ford">Ford</option>
+                                <option value="toyota">Toyota</option>
+                                <option value="aston">Aston Martin</option>
+                                <option value="alfa">Alfa Romeo</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saad">Saab</option>
+                                <option value="ford">Ford</option>
+                                <option value="toyota">Toyota</option>
+                                <option value="aston">Aston Martin</option>
+                                <option value="alfa">Alfa Romeo</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saad">Saab</option>
+                                <option value="ford">Ford</option>
+                                <option value="toyota">Toyota</option>
+                                <option value="aston">Aston Martin</option>
+                                <option value="alfa">Alfa Romeo</option>
+                            </select>
+        
+                        </div>
+                        <button type="submit" value="Search" id="Gosearch" onclick="searchAbout()"><a href="search.html" style="color: white;">Search</a></button>
+                        </form>
+                    </td>
+        
+                    <td>
+                    <a href="#" id="advanced"><h6>Advanced</h6></a>   
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+               <hr>
+
+
+
+
+
+<!-------------------------------------products Info------------------------------------------------>
+         <div id="productdetails">
+             <span id="pro_photspan1">
+                 <img id="productphoto" src="imges/1.jfif">
+             </span>
+
+             <span id="detailsspan2">
+                    <h2>purble blouse</h2>
+                    <p style="text-align: left;">
+                        <b>Title</b>: BIYLACLESEN Women's 3-in-1 Snowboard pints.<br>
+                        <b>Description:</b> Note:The pints is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece.
+                        Detachable Functional Liner: Skin Friendly, Lightweigt and Warm, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets,
+                        2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure.
+                        Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience,
+                        you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates.
+                        <br><b>Category:</b> women's clothing.<br>
+                    <b>Price:</b> 120.99<br> 
+                        <b>Rate:</b> 2.6<br>
+                        <b>Count:</b> 235                
+              <button type="button" id="addCart" value="1" onclick="addToCart(this)">Add To Cart</button>
+
+                    </p>
+             </span>
+
+         </div>
+
+
+
+<hr>
+
+<!-------------------------------------------------------------------------------------------->
+<!------------------------------------All products-------------------------------------------->
+<div id="BigDivproduct">
+
+    <h2>* Other Products *</h2>
+<br><br>
+
+
+
+<!-----------------------------------First Row--------------------------------------------->
+    <div style="background-color: rgb(255, 255, 255); height: 300px; width: 100%;">
+        <section class="">
+        <div class="photos">
+            <ul>
+    <!----------------------Start products--------------------->
+
+        <!------------------ img1 ------------------------------>
+                <li value="1" onclick="product_details(this)">
+                    <div style="text-align: center;">
+                        <a href="#">
+                            <img src="imges/1.jfif" id="img_A" class="items">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="#" id="title_A">purble blouse</a><br>
+                        <a href="#" id="price_A" class="price">120.99</a>
+
+                        <div class="brdr"></div>
+                    </div>
+
+                </li>
+
+        <!------------------ img2 ------------------------------>
+ 
+                <li value="2" onclick="product_details(this)">
+                    <div style="text-align: center;" >
+                        <a href="#">
+                          <img src="imges/2.jfif" id="2" class="items">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="#" id="title_B">colorful blouse</a><br>
+                        <a href="#" id="price_B" class="price">220.99</a>
+
+                        <div class="brdr"></div>
+                    </div>
+
+                </li>
+
+        <!------------------ img3 ------------------------------>
+                <li value="3" onclick="product_details(this)">
+                    <div style="text-align: center;">
+                        <a href="#">
+                            <img src="imges/3.jpeg" id="img_C" class="items">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="#" id="title_C">Quelted jacket</a><br> 
+                        <a href="#" id="price_C" class="price">180.99</a>
+
+                        <div class="brdr"></div>
+                    </div>
+
+                </li>
+
+        <!------------------ img4 ------------------------------>
+                <li value="4" onclick="product_details(this)">
+                    <div style="text-align: center;">
+                        <a href="#">
+                            <img src="imges/4.png" id="img_D" class="items">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="#" id="title_D">Black Blouse</a><br>
+                        <a href="#" id="price_D" class="price">400.99</a>
+
+                        <div class="brdr"></div>
+                    </div>
+
+                </li>
+
+        <!------------------ img5 ------------------------------>
+                 <li value="5" onclick="product_details(this)">
+                    <div style="text-align: center;">
+                        <a href="#">
+                            <img src="imges/5.jpg" id="img_E" class="items">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="#" id="title_E">Pink Blouse</a><br>
+                        <a href="#" id="price_E" class="price">400.99</a>
+
+                        <div class="brdr"></div>
+                    </div>
+
+                </li>
+
+<!----------------------End products--------------------->
+        </ul>
+        </div>   
+        </section>
+    
+    </div>
+
+
+<!-----------------------------------second Row--------------------------------------------->
+<div style="background-color: rgb(255, 255, 255); height: 300px; width: 100%;">
+    <section class="">
+    <div class="photos">
+        <ul>
+    <!----------------------Start products--------------------->
+
+        <!------------------ img6 ------------------------------>
+            <li value="6" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/phone3.jpg" id="img_F" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_F">oppo phone</a><br>
+                    <a href="#" id="price_F" class="price">5000</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+    <!------------------ img7 ------------------------------>
+
+            <li value="7" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/phone1.jpg" id="img_G" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_G">iphone 3</a><br>
+                    <a href="#" id="price_G" class="price">11000</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+    <!------------------ img8 ------------------------------>
+            <li value="8" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/xiam.jfif" id="img_H" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_H">xiaoma phone</a><br> 
+                    <a href="#" id="price_H" class="price">6600</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+    <!------------------ img9 ------------------------------>
+            <li value="9" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/samsung.jfif" id="img_I" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_I">samsung phone</a><br>
+                    <a href="#" id="price_I" class="price">6600</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+    <!------------------ img10 ------------------------------>
+             <li value="10" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/sn.png" id="img_J" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_J">babyBlue shoes</a><br>
+                    <a href="#" id="price_J" class="price">180.99</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+<!----------------------End products--------------------->
+    </ul>
+    </div>   
+    </section>
+</div>
+
+
+<!-----------------------------------Third Row--------------------------------------------->
+<div style="background-color: rgb(255, 255, 255); height: 300px; width: 100%;">
+    <section class="">
+    <div class="photos">
+        <ul>
+<!----------------------Start products--------------------->
+
+    <!------------------ img11 ------------------------------>
+            <li value="11" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/tvs.jpg" id="img_K" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_K">Acer TV</a><br>
+                    <a href="#" id="price_K" class="price">5599</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+    <!------------------ img12 ------------------------------>
+
+            <li value="12" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/tv.jpg" id="img_L" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_L">Samsung TV</a><br>
+                    <a href="#" id="price_L" class="price">7700.99</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+    <!------------------ img13 ------------------------------>
+            <li value="13" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/shoes.jpeg" id="img_M" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_M">white shoes</a><br> 
+                    <a href="#" id="price_M" class="price">120.99</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+    <!------------------ img14 ------------------------------>
+            <li value="14" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/bags.png" id="img_N" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_N">simple bag</a><br>
+                    <a href="#" id="price_N" class="price">39.99</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+    <!------------------ img15 ------------------------------>
+             <li value="15" onclick="product_details(this)">
+                <div style="text-align: center;">
+                    <a href="#">
+                        <img src="imges/headphone.jpg" id="img_O" class="items">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <a href="#" id="title_O">Headphone</a><br>
+                    <a href="#" id="price_O" class="price">150.85</a>
+
+                    <div class="brdr"></div>
+                </div>
+
+            </li>
+
+<!----------------------End products--------------------->
+    </ul>
+    </div>   
+    </section>
+
+</div>
+
+
+<!-----------------------------------Forth Row--------------------------------------------->
+<div style="background-color: rgb(255, 255, 255); height: 300px; width: 100%;">
+<section class="">
+<div class="photos">
+    <ul>
+<!----------------------Start products--------------------->
+
+    <!------------------ img16 ------------------------------>
+        <li value="16" onclick="product_details(this)">
+            <div style="text-align: center;">
+                <a href="#">
+                    <img src="imges/laptop.jfif" id="img_P" class="items">
+                </a>
+            </div>
+
+            <div class="row">
+                <a href="#" id="title_P">HP Labtop</a><br>
+                <a href="#" id="price_P" class="price">11000.95</a>
+
+                <div class="brdr"></div>
+            </div>
+
+        </li>
+
+        <!------------------ img17 ------------------------------>
+
+        <li value="17" onclick="product_details(this)">
+            <div style="text-align: center;">
+                <a href="#">
+                    <img src="imges/camera.jpg" id="img_Q" class="items">
+                </a>
+            </div>
+
+            <div class="row">
+                <a href="#" id="title_Q">Fujifilm Camera</a><br>
+                <a href="#" id="price_Q" class="price">6678.95</a>
+
+                <div class="brdr"></div>
+            </div>
+
+        </li>
+
+        <!------------------ img18 ------------------------------>
+        <li value="18" onclick="product_details(this)">
+            <div style="text-align: center;">
+                <a href="#">
+                    <img src="imges/18.jpeg" id="img_R" class="items">
+                </a>
+            </div>
+
+            <div class="row">
+                <a href="#" id="title_R">comfort Blouse</a><br> 
+                <a href="#" id="price_R" class="price">90.85</a>
+
+                <div class="brdr"></div>
+            </div>
+
+        </li>
+
+        <!------------------ img19 ------------------------------>
+        <li value="19" onclick="product_details(this)">
+            <div style="text-align: center;">
+                <a href="#">
+                    <img src="imges/19.jpg" id="img_S" class="items">
+                </a>
+            </div>
+
+            <div class="row">
+                <a href="#" id="title_S">sweet Blouse</a><br>
+                <a href="#" id="price_S" class="price">70.95</a>
+
+                <div class="brdr"></div>
+            </div>
+
+        </li>
+
+        <!------------------ img20 ------------------------------>
+         <li value="20" onclick="product_details(this)">
+            <div style="text-align: center;">
+                <a href="#">
+                    <img src="imges/20.jpeg" id="img_T" class="items">
+                </a>
+            </div>
+
+            <div class="row">
+                <a href="#" id="title_T">cotton Blouse</a><br>
+                <a href="#" id="price_T" class="price">12.99</a>
+
+                <div class="brdr"></div>
+            </div>
+
+        </li>
+
+        <!----------------------End products--------------------->
+    </ul>
+    </div>   
+</section>
+</div>
+
+
+
+</div>
+
+<!-------------------------------------End Of All products-------------------------------------------->
+<!---------------------------------------------------------------------------------------------------->
+
+    <div style="height: 50px;width: 100%;text-align: center; background-color: rgb(255, 255, 255);">
+        <a href="card.html"><button type="button" value="Go To Cart" id="gotocard">Go To Cart</button></a>
+    </div>
+
+<hr>
+<!----------------------------------------------Footer------------------------------------------------>
+<footer id="footerBrandinfo">
+
+    <p class="footerAreaText">
+       <a href="#" class="footertexts"> About eBay </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="#" class="footertexts"> Announcements </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="#" class="footertexts"> Community </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="#" class="footertexts"> Security Center </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="#" class="footertexts"> Seller Information Center </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="#" class="footertexts"> Policies </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="#" class="footertexts"> Affiliates </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="#" class="footertexts"> Help & Contact </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="#" class="footertexts"> Site Map </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<br><br><br>
+Copyright © 1995-2022 eBay Inc. All Rights Reserved. Accessibility, User Agreement, Privacy, Cookies, Do not sell my personal information and AdChoice
+    </p>
+
+    <img src="norton.jpg" alt="" class="png" style="float: right; padding-right: 30px;">
+
+    <div style="float: right; position: relative;">
+     <a href="#productssinfo" class="png"><i class="fa-solid fa-circle-arrow-up" style="font-size: 30px; bottom: 52px;position: fixed; left: 97%;" ></i></a>
+ </div>
+
+
+</footer>
+
+
+
+
+
+<script src="Home.js"></script>
+    </body>
+</html>

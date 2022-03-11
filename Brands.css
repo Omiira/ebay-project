@@ -1,0 +1,99 @@
+#title{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    /* padding-left: 50px; */
+    padding-top: 7px;
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    color: black;
+}
+
+#brandname{
+    font-size: 13px;
+    color: black;
+}
+
+/******************************************** photo Brand ********************************************/
+#brandphotoDiv{
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 10px 0px 0px 45px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+#brandphoto{
+    width: 93%;
+    height: 90%;
+    position: absolute;
+}
+
+/******************************************* products of brands ********************************************/
+#brandBigDiv{
+    width: 100%;
+    min-height: 1270px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+#shoplist{
+    width: 20%;
+    min-height: 1270px;
+    position: absolute;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    color: black;
+    text-align: left;
+}
+
+#productOfEveryBrand{
+    width: 80%;
+    min-height: 1270px;
+    /* position: absolute; */
+    float: right;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    /* position: relative; */
+}
+
+.textshop{
+    color: black !important;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.textshop:hover{
+    text-decoration: underline;
+}
+
+/******************************************* Footer of Brands ********************************************/
+#footerBrandinfo{
+    width: 100%;
+    height: 180px;
+    /* margin-top: 550px; */
+    background-color: rgb(255, 255, 255);
+    /* position: relative; */
+}
+
+.footertexts,.footerAreaText{
+    font-size: 13px;
+    color: rgb(139, 137, 137);
+    text-decoration: none;
+
+}
+
+.footertexts:hover{
+    text-decoration: underline;
+}
+
+.footerAreaText{
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 12px;
+}
+

@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "name":"purble blouse",
+    "title": "BIYLACLESEN Women's 3-in-1 Snowboard pints",
+    "price": 120.99,
+    "description": "Note:The pints is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+    "category": "women's clothing",
+    "image": "imges/1.jfif",
+    "rating": {
+      "rate": 2.6,
+      "count": 235
+    }
+  },
+  {
+    "id": 2,
+    "name":"colorful blouse",
+    "title": "womens Casual Slim Fit",
+    "price": 220.99,
+    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+    "category": "women's clothing",
+    "image": "imges/2.jfif",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+    {
+      "id": 3,
+      "name":"Quelted jacket",
+      "title": "Mens Cotton Jacket",
+      "price": 180.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "men's clothing",
+      "image": "imges/3.jpeg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "name":"Black Blouse",
+      "title": "womens Casual Slim Fit",
+      "price": 400.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "women's clothing",
+      "image": "imges/4.png",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "name":"Pink Blouse",
+      "title": "womens Casual Slim Fit",
+      "price": 400.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "women's clothing",
+      "image": "imges/5.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    
+    {
+      "id": 6,
+      "name":"oppo phone",
+      "title": "phones oppo ",
+      "price": 5000,
+      "description": "OppoTechnology: GSM / HSPA / LTEDimensions: 160.3 x 73.8 x 8 mmWeight: 175 gSIM: Dual SIM (Nano-SIM, dual stand-by)Type: AMOLED touchscreenSize: 6.43 inches (~84.4% screen-to-body ratio)1080 x 2400 pixels, 20:9 ratio (~270 ppi density)OS: Android 11Chipset: Qualcomm SM6115 Snapdragon 662",
+      "category": "phones",
+      "image": "imges/phone3.jpg",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 7,
+      "name":"iphone 3",
+      "title": "phones iphone ",
+      "price": 11000,
+      "description": "Pro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording",
+      "category": "phones",
+      "image": "imges/phone1.jpg",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    
+    {
+      "id": 8,
+      "name":"xiaoma phone",
+      "title": "phones xiaoma",
+      "price": 6600,
+      "description": "Pro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Xaomi 11T 5G 265 GB",
+      "category": "phones",
+      "image": "imges/xiam.jfif",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 9,
+      "name":"samsung phone",
+      "title": "phones samsung ",
+      "price": 6600,
+      "description": "Infinity-O Display: 6.5-inch HD+ display allows you to see the whole scene on a big screen. Immerse and enjoy your favorite content such as videos, games, and live stream. Quad Camera: More camera, more perspectives. Capture yours with the 48MP main, 2MP macro, 8MP ultrawide, or a 2MP depth camera. 5000mAh battery and 15W Fast Charging: Power your day and night - the long-lasting battery keeps up with your streaming, sharing, and gaming. Octa-core processor with 4GB of RAM and 128GB of ROM: It has your performance and space needs covered, so you can focus on what's important. ",
+      "category": "phones",
+      "image": "imges/samsung.jfif",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+   
+    {
+      "id": 10,
+      "name":"babyBlue shoes",
+      "title": "Mens shoes",
+      "price": 180.99,
+      "description": "Soft design, Leather overlay Thin rubber sole with piqué texture / Contrast leather lining with terry sock-style inner lining  Contrasting strap on heel and double stripe tongue  Laurel wreath badge on heel with side embroidery the color",
+      "category": "men's snikeers",
+      "image": "imges/sn.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    
+    {
+      "id": 11,
+      "name":"Acer TV",
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 5599,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "electronics",
+      "image": "imges/tvs.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 12,
+      "name":"Samsung TV",
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+      "price": 7700.99,
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "category": "electronics",
+      "image": "imges/tv.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+
+    {
+      "id": 13,
+      "name":"white shoes",
+      "title": "shoes",
+      "price": 120.99,
+      "description": "Soft design, Leather overlay Thin rubber sole with piqué texture / Contrast leather lining with terry sock-style inner lining  Contrasting strap on heel and double stripe tongue  Laurel wreath badge on heel with side embroidery the color",
+      "category": "women's shoes",
+      "image": "imges/shoes.jpeg",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 14,
+      "name":"simple bag",
+      "title": " Women bages",
+      "price": 39.99,
+      "description": "The fully adjustable shoulder strap allows for excellent comfort tailored to your body size including non-slip shoulder pad Thanks to the double-sided two-way zip on the bag, it is easy to use and quick to remove your laptop or noteboo",
+      "category": "women's bags",
+      "image": "imges/bags.png",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 15,
+      "name":"Headphone",
+      "title": "headsit ",
+      "price": 150.85,
+      "description": "SB Connectivity : No need to install software, simply connect the headphones via USB-A to your laptop or computer Digital Stereo Sound : Crystal clear audio, ideal for gaming and skypingNoise-Cancelling Qualities : A rotating and noise-cancelling microphone that minimizes background noise for clear calls Lightweight Design : Adjustable headband and mic and soft ear cups for a truly comfortable PC headset",
+      "category": "electronics",
+      "image": "imges/headphone.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 16,
+      "name":"HP Labtop",
+      "title": "laptops",
+      "price": 11000.95,
+      "description": "CPU : Intel Core i5-11300H Processor 3.1 GHz (8M Cache, up to 4.4 GHz, 4 cores)Resolution : FHD (1920 x 1080) 16:9 Refresh Rate : 144HzIntegrated GPU : Intel Iris Xᵉ Graphics (Intel Iris Xᵉ Graphics in Dual Channel Intel UHD Graphics in Single Channel) Storage : 512GB M.2 NVMe PCIe 3.0 SSD",
+      "category": "electronics",
+      "image": "imges/laptop.jfif",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    
+    {
+      "id": 17,
+      "name":"Fujifilm Camera",
+      "title": "camera",
+      "price": 6678.95,
+      "description": "Brand : Fujifilm Manufacturer Number : 4547410431070Are batteries needed to power the product or is this product a battery : YesIs this a Dangerous Good or a Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or disposal? : Nonull : 4547410431070",
+      "category": "electronics",
+      "image": "imges/camera.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 18,
+      "name":"comfort Blouse",
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      "price": 90.85,
+      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "category": "women's clothing",
+      "image": "imges/18.jpeg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 19,
+      "name":"sweet Blouse",
+      "title": "Opna Women's Short Sleeve Moisture",
+      "price": 70.95,
+      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "category": "women's clothing",
+      "image": "imges/19.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 20,
+      "name":"cotton Blouse",
+      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+      "price": 12.99,
+      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "category": "women's clothing",
+      "image": "imges/20.jpeg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    }
+  ]

@@ -1,0 +1,142 @@
+/************************************************************************************************/
+/**************************************** products page *****************************************/
+#productdetails{
+    min-height: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+#pro_photspan1{
+    width: 40%;
+    min-height: 350px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 17px 0px 0px 80px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left;
+
+
+}
+
+#productphoto{
+    width: 80%;
+    height: 90%;
+    position: absolute;
+
+}
+
+#detailsspan2{
+    min-height: 350px;
+    position: absolute;
+    width: 60%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+#BigDivproduct{
+    width: 100%;
+    min-height: 1000px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    padding: 50px 90px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.price{
+    font-size: 11px !important;
+}
+
+#addCart{
+    float: right;
+    left: 75%;
+    bottom: 35px;
+    padding: 3px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+
+#gotocard{
+    padding: 3px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    left: 43%;
+    font-size: 18px;
+    font: bold;
+}
+
+/*****************card page*****************/
+.spancart{
+    width: 60%;
+    float: left;
+    height: 100%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: 1px black solid;
+    border-left: 0;
+    /* padding: 4px; */
+}
+
+.phocart{
+    width: 39%;
+    float: left;
+    height: 100%; 
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    border-right: 0;
+
+}
+
+.imgcart{
+    width: 300px;
+    height: 280px;
+    left: 100px;
+    top: 10px;
+    position: absolute;
+}
+
+.createddiv{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#removeCart{
+    float: right;
+    left: 70%;
+    bottom: 25px;
+    padding: 3px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+
+
+#removecard{
+    padding: 3px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    left: 40%;
+    font-size: 18px;
+    font: bold;
+}

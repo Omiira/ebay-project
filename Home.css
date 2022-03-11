@@ -1,0 +1,758 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* overflow: hidden;
+    user-select: none; */
+  }
+/* -------------------------------------First Div------------------------------------------------ */
+.firstdiv{
+  height: 31px;
+  width: 100%;
+  margin: 0 auto;
+} 
+
+  #nav1{
+    height: 31px;
+    background: #ffffff;
+  }
+  #nav1 ul{
+    float: left;
+    margin-right: 30px;
+  }
+  #nav1 ul li{
+    display: inline-block;
+  }
+  #nav1 ul li a,
+  #nav1 ul li h4{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 0 15px;
+    line-height: 30px;
+    font-size: 13px;
+    background: #ffffff;
+    transition: .5s;
+  }
+  #nav1 ul li a:hover{
+    color: blue;
+  }
+  #nav1 ul ul li a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+
+  #nav1 ul ul{
+    position: absolute;
+    /* top: 10px; */
+    /* border-top: 3px solid #23dbdb; */
+    opacity: 0;
+    visibility: hidden;
+    /* border-right: 1px solid #000000; */
+    /* border-left:  1px solid #000000; */
+    box-shadow: 0 1px 1px rgba(0,0,0,.4);
+
+  }
+  #nav1 ul li:hover > ul{
+    top: 31px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+    position: absolute;
+    z-index: 9;
+  }
+  #nav1 ul ul li{
+    padding: 0;
+    min-width: 90px;
+    display: list-item;
+    position: relative;
+    /* border: 1px solid #000000; */
+    border-top: none;
+  }
+  #nav1 ul ul li a{
+    line-height: 30px;
+  }
+
+.signReg{
+    color: blue !important;
+    text-decoration: underline;
+}
+
+.underlinehovernav1:hover{
+    text-decoration: underline;
+    color: black !important;
+}
+
+.inwatch{
+    color: blue !important;
+    text-decoration: underline;
+
+}
+#Home{
+  border-bottom: 3px solid black;
+
+}
+
+#n_of_prod{
+  width: 15px;
+  height: 15px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* -------------------------------------Second Div------------------------------------------------ */
+.div2{
+  width: 100%;
+  margin: 0 auto;
+  height: 97px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+}
+
+.logoimg{
+  width: 205px;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  float: left;
+}
+
+#logo{
+  padding: 5px 0 5px 50px;
+  width: 150px;
+  height: 80px;
+}
+
+table{
+  padding: 0%;
+  height: 100%;
+  margin: 0;
+}
+
+.shop{
+  width: 90px;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  /* transform: translate(-50%,-50%);
+  float: left; */
+
+}
+
+.shopby{
+  width: 90px;
+  padding: 20px 0 10px 5px;
+  color: rgb(0, 0, 0);
+  float: left;
+  height: 100%;
+  margin: 3px;
+  /* transform: translate(-50%,-50%); */
+
+}
+
+.arrowsearch{
+  float: left;
+  width: 20px;
+  padding: 30px 3px 30px 3px;
+  /* transform: translate(-50%,-50%); */
+  /* width: 10px; */
+  text-align: center;
+  /* padding: 30px;"> */
+}
+
+.shopby:hover{
+  color: blue;
+}
+/* ----------------------------- */
+.search_Area{
+  height: 45px;
+  width: 750px;
+  margin: 20px 0 10px 5px;
+  /* display: inline-block; */
+  float: left;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+}
+
+.S_icon{
+  width: 45px;
+  height: 100%;
+  text-align: center;
+  padding: 10px 0px 5px 5px;
+  border-right: 2px solid rgb(255, 255, 255);
+  font-size: 14;
+  float: left;
+}
+
+.searchinput{
+  height: 100%;
+  width: 530px;
+  margin: 0;
+  padding: 5px;
+  float: left;
+  border-style: hidden;
+}
+
+.searchinput:focus{
+  outline: none;
+}
+
+.S_icon, .searchinput{
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.allcategory{
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  float: left;
+  width: 175px;
+  background-color: rgb(255, 255, 255);
+  line-height: 35px;
+
+}
+
+#Gosearch{
+  width: 150px;
+  height: 49px;
+  float: left;
+  margin: 20px 0 5px 5px;
+  padding: 3px;
+  color: white;
+  background-color: blue;
+  border: 0;
+}
+
+#advanced{
+  float: left;
+  font-size: 13;
+  text-align: center;
+  padding: 15px 0 10px 10px;
+  color: black;
+}
+
+#advanced:hover{
+  color: blue;
+}
+
+/* ------------------------- */
+.shopping{
+  padding: 0;
+  min-width: 850px;
+  display: list-item;
+  position: relative;
+  /* border: 1px solid #000000; */
+  border-top: none;
+}
+
+.shop{
+  position: relative;
+}
+.shopping div{
+  line-height: 25px;
+}
+
+.shopping a:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.ulshop{
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 1px 1px rgba(0,0,0,.4);
+
+  color: rgb(0, 0, 0);
+  display: block;
+  padding: 0 12px;
+  line-height: 15px;
+  font-size: 12px;
+  background: #ffffff;
+  transition: .5s;
+}
+/* ,.shopby */
+.shop:hover>.ulshop{
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+  position: absolute;
+  z-index: 10;
+}
+
+.shopby{
+  display: inline-block;
+  top: 160px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+}
+
+.shopitem{
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+.shopitem:hover{
+  color: blue !important;
+  text-decoration: underline;
+}
+
+#seeall{
+  color: blue;
+  text-decoration: none;
+  font-size: 20;
+}
+#seeall:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+/* -------------------------------------Third Div------------------------------------------------ */
+.div3{
+  height: 31px;
+  width: 100%;
+  margin: 0 auto;
+
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+}
+
+#nav2{
+  height: 31px;
+  background: #ffffff;
+}
+#nav2 ul{
+  float: left;
+  margin-right: 30px;
+}
+#nav2 ul li{
+  display: inline-block;
+}
+#nav2 ul li a,
+#nav2 ul li h4{
+  color: rgb(0, 0, 0);
+  display: block;
+  padding: 0 12px;
+  line-height: 30px;
+  font-size: 12px;
+  background: #ffffff;
+  transition: .5s;
+}
+#nav2 ul li a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+#nav2 ul ul li a:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+#nav2 ul ul{
+  position: absolute;
+  /* top: 10px; */
+  /* border-top: 3px solid #23dbdb; */
+  opacity: 0;
+  visibility: hidden;
+  /* border-right: 1px solid #000000; */
+  /* border-left:  1px solid #000000; */
+  box-shadow: 0 1px 1px rgba(0,0,0,.4);
+
+}
+#nav2 ul li:hover > ul{
+  top: 160px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+  z-index: 11;
+}
+#nav2 ul ul li{
+  padding: 0;
+  min-width: 850px;
+  display: list-item;
+  position: relative;
+  /* border: 1px solid #000000; */
+  border-top: none;
+}
+#nav2 ul ul li div{
+  line-height: 30px;
+}
+
+
+
+
+/* ----------------------Dynamic pic---------------------------------------- */
+.dynamicpic{
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  font-size: 15;
+  padding: 0;
+  /* display: inline-block; */
+  position: relative;
+}
+
+.img{
+  width: 100%;
+  height: 400px;
+  /* float: left; */
+  /* display: block; */
+  padding: 0;
+  text-align: center;
+}
+
+.buttons{
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+}
+
+/* ---------Text on image------------ */
+#textimg{
+  position: absolute;
+  text-align: left;
+  bottom: 15%;
+  left: 5%;
+  background-color: rgba(97, 95, 95, 0.623);
+  color: rgb(233, 208, 208);
+  font-size: 40;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font: bold; */
+}
+
+
+/* ----------------Arrows------------ */
+/*------ Next----- */
+.arrnext{
+  /* float:right; */
+  left: 97%;
+  bottom: 45%;
+  position: absolute;
+  background-color:rgba(126, 119, 119, 0.219);
+  color: rgb(41, 41, 41);
+  font-size: 30px;
+  /* border: 0; */
+}
+
+.arrnext:hover{
+color: black;
+background-color:rgba(126, 119, 119, 0.726);
+}
+
+
+/* ---Last------ */
+.arrlast{
+  right: 97%;
+  bottom: 45%;
+  position: absolute;
+  background-color:rgba(126, 119, 119, 0.219);
+  color: rgb(41, 41, 41);
+  font-size: 30px;
+  /* border: 0; */
+}
+
+
+.arrlast:hover{
+color: black;
+background-color:rgba(126, 119, 119, 0.726);
+}
+
+#frontimg{
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------------- */
+
+/* 
+.dropdown-categories{
+  opacity: 1;
+  visibility: hidden;
+  box-shadow: 0 1px 1px rgba(0,0,0,.4);
+
+  background-color: rgb(206, 94, 94);
+  display: inline-block;
+  min-width: 170px;
+  display: list-item;
+  border-top: none;
+
+}
+
+.electronics:hover>.dropdown-categories{
+  top: 31px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+
+}
+
+.dropdown-categories>a{
+  color: rgb(0, 0, 0);
+  display: block;
+  padding: 0 15px;
+  font-size: 13px;
+  background: #ffffff;
+  transition: .5s;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* nav ul ul li a i{
+    margin-left: 10px;
+  } */
+  /* section{
+    background: url(bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  } */
+
+
+/********************************Esraa*******************************************************/
+
+
+  #item_brands{
+    padding: 0px;
+
+}
+#item_brands1{
+  padding-left: 60px;
+}
+
+.column .text{
+    margin: 30px 0px;
+    text-align: left; 
+}
+.column .text>a{
+   text-decoration: none;
+   font-size: 25px;
+   color: black;
+   font-weight: 900;
+}
+.column .text:hover .hr_dash{
+width:20%;
+background-color: black;
+height: 2px;
+   
+}
+.hr_dash{
+   width: 0;
+}
+
+
+
+.column{
+ padding: 0px 50px; 
+}
+
+.brands{
+   text-align: center;
+
+}
+.row{
+   text-align: center;
+
+}
+
+.photos .items{
+   border-radius: 35%;
+   width: 60%;
+   border: 1px solid white;
+   cursor: pointer;
+   background-size: auto;
+}
+
+.photos li:hover .items{
+   border: 1px solid rgb(14, 148, 158);
+   border-radius: 50%;
+}
+
+.photos li{
+   float: left;
+   list-style-type: none;
+   }
+   
+.clear{
+   clear: both;
+} 
+.row{
+   padding: 15px;
+   cursor: pointer;
+
+}
+li:hover .brdr{
+   width:50%;
+   background-color: black;
+   height: 2px;
+    margin-left: 40px;
+}
+.row a{
+   font-size: 20px;
+   text-align: center;
+color: black;
+text-decoration: none;
+}
+@media  screen and (max-width: 700px ) and (min-width: 200px) {
+ 
+ .photos li{
+     float: none;
+   }
+ .photos .items{
+   width: 70%;
+}
+
+/* .section{
+  height: 25%;
+  padding-top: 20px;
+  position: absolute;
+  background-color: cadetblue;
+} */
+
+}
+@media  screen and (max-width: 1000px ) and (min-width: 600px) {
+  
+   .photos li{
+       float:left;
+     }
+   .photos .items{
+     width: 70%;
+     position: absolute;
+ }
+ .column{
+     width: 70%;
+ }
+ 
+ 
+ }
+ 
+/**********************************************omira*********************************************/
+
+.foot{
+ 
+   width: 100%;
+ }
+ .alllists{
+   
+   margin:0px 15px 0px 15px;
+   width: 98%;
+   height: 180px;
+ }
+ .flist{
+   
+   padding: 0px;
+   float: left; 
+   width: 19.2%;
+   font-size: 12px;
+   text-align: left;
+   color: rgb(138, 135, 135);
+   
+ }
+ 
+ .flist3{
+   padding-top: 25px;
+   padding-bottom: 15px;
+   text-align: left;
+   color: rgb(138, 135, 135);   
+   
+ }
+ .png{
+   padding-top: 0px;
+   text-align: right;
+   margin-right: 40px;
+   margin-bottom: 0px;
+   
+ }
+ .copyright{
+   
+   text-align: center;
+   margin: 0px; 
+   font-size: 11px;
+   height: 60px;
+   padding: 0;
+ }
+ 
+.factwi{
+  color: rgb(143, 143, 143);
+  text-decoration: none;
+}
+
+.factwi:hover{
+  text-decoration: underline;
+}
+
+
+/**************************************************************************************************/
+/*******************************************Sign in************************************************/
+.singbtn{
+  border-radius: 30px;
+  height: 50px;
+  width: 370px;
+  padding-left: 0px;
+  color: white;
+  background-color: blue;
+  font-size: 18px;
+}
+
+.singbtn:hover{
+  background-color: rgb(0, 0, 134);
+}
+
+.singbtn2{
+  border-radius: 30px;
+  height: 50px;
+  width: 370px;
+  padding-left: 0px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(243, 243, 243);
+  font-size: 18px;
+}
+
+.singbtn2:hover{
+  background-color: rgb(202, 202, 202);
+}
+
+
+
+
